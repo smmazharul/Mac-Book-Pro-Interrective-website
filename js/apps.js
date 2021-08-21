@@ -19,7 +19,7 @@ document.getElementById('gb16-memory').addEventListener('click', function(){
     addintionTotal();
 })
 
-/*  memory section ses  */
+/*  memory section end  */
 
 
 
@@ -125,11 +125,16 @@ document.getElementById('delivery-with-charge').addEventListener('click', functi
 
 document.getElementById('apply-offer').addEventListener('click', function(){
     const promoFeild=document.getElementById('offer-code');
+   
     if (promoFeild.value =="stevekaku") {
         const totalPromoText=document.getElementById('total-with-promo').innerText;
         const totalPromo =parseInt(totalPromoText); 
         const totalWithPromo=(totalPromo)-(totalPromo*20/100);
         document.getElementById('total-with-promo').innerText=totalWithPromo;
+        
         promoFeild.value="";
     }
 })
+function applyButton(){
+    document.getElementById('offer-code').disabled =true;
+}
