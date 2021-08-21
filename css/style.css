@@ -1,0 +1,127 @@
+Jubair Ahmad
+css update
+
+
+
+body{
+    margin: 0;
+    padding: 0%;
+}
+header{
+    text-align: center;
+    color: orange;
+}
+header h1{
+    border-bottom: 2px solid orange;
+    font-size: 30px;
+}
+header h1 span {
+    color:gray;
+}
+#main-section{
+    width: 75%;
+    margin: 0% auto;
+    padding: 10px;
+}
+#container{
+    display: flex;
+}
+img{
+    margin: 70px 30px 0 0;
+    width: 300px;
+    height: 300px;
+    padding-left: 170px;
+}
+#caption{
+    margin-left: 6px;
+}
+#caption h1{
+    font-size: 26px;
+    color: orange;
+    font-weight: 700;
+}
+p{ 
+    font-size: 18px;
+    text-align: justify;
+}
+h1{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+h3{
+    margin: 0%;
+    margin-top: 20px;
+}
+#cost-divission{
+    margin-top: 40px;
+}
+h2{
+    margin: 0%;
+}
+.memory{
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.memory:hover{
+    background-color: orange;
+    color: white;
+}
+.storage{
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.storage:hover{
+    background-color: orange;
+    color: white;
+}
+.delivery{
+    border-radius: 3px;
+    padding: 5px;
+    margin-right: 10px;
+}
+.delivery:hover{
+    background-color: orange;
+    color: white;
+}
+.price-handeler{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    font-weight: 400;
+}
+.price-handeler h2{
+    font-weight: 500;
+}
+#handeler{
+    font-weight: 700;
+}
+#cost-divission > hr{
+    border: .5px solid rgba(0, 0, 0, 0.089);
+    width: 60%;
+    margin: 0%;
+}
+#cost-divission > #deep-hr{
+    border: 1px solid black;
+}
+#offer-code{
+    padding: 5px;
+    border-radius: 4px;
+}
+#apply-offer{color: white;
+    background-color: red;
+    border: 0 solid ;
+    border-radius: 4px;
+    padding:7px 15px;
+}
+#apply-offer:hover{
+    background-color: green;
+    color: white;
+}
+#footer-section > h1{
+    
+    margin-left: 40% ;
+}
